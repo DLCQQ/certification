@@ -8,10 +8,11 @@ def format_seconds(seconds):
     
     return f'{days} days {hours} hours {minutes} minutes {seconds} seconds'
 
-begin = int(input("введите начало диапазона --> "))
-endF = int(input("введите конец диапазона --> "))
+# begin = int(input("введите начало диапазона --> "))
+# endF = int(input("введите конец диапазона --> "))
 
-for i in range(begin, endF + 1):
+# for i in range(begin, endF + 1):
+for i in range(1, 10 + 1):
     if i % 2 == 0:
         print(i, end=", ")
 
